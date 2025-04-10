@@ -57,6 +57,8 @@ class TrendBarServiceImplITCase {
 		latch.await();
 		generatorExecutor.shutdown();
 
+		Thread.sleep(100);
+
 		final Instant now = Instant.now();
 
 		// delta of 1, because quotes producer is based on current system time, and with high load it sometimes acts weird
