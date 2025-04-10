@@ -8,7 +8,7 @@ import java.time.Instant;
 import java.util.Random;
 
 public class FakeQuoteProducer implements QuoteProducer {
-	final Random random = new Random();
+	private final Random random = new Random();
 
 	@Override
 	public Quote nextQuote() throws InterruptedException {
