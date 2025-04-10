@@ -12,7 +12,7 @@ import java.time.Instant;
 import java.util.Collection;
 
 @Service
-public class HistoryServiceImpl implements HistoryService {
+public final class HistoryServiceImpl implements HistoryService {
 	private final TrendBarDao trendBars;
 
 	public HistoryServiceImpl(TrendBarDao trendBarDao) {

@@ -2,7 +2,7 @@ package com.spotware.trendbar.model;
 
 import java.util.Objects;
 
-public class TrendBarMeta {
+public final class TrendBarMeta {
 	private final String symbolName;
 	private final PeriodType period;
 

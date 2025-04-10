@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.*;
 
 @Service
-public class TrendBarServiceImpl implements TrendBarsAggregateService {
+public final class TrendBarServiceImpl implements TrendBarsAggregateService {
 	private final HistoryService historyService;
 
 	private final BlockingQueue<Quote> quoteQueue = new LinkedBlockingQueue<>();

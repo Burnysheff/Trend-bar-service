@@ -1,6 +1,6 @@
 package com.spotware.trendbar.model;
 
-public class TrendBar {
+public final class TrendBar {
     private final Symbol symbol;
     private final PeriodType periodType;
     private final long openPrice;
