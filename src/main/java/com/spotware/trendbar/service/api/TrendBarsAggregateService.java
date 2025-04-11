@@ -1,4 +1,4 @@
-package com.spotware.trendbar.service;
+package com.spotware.trendbar.service.api;
 
 import com.spotware.trendbar.model.Quote;
 
